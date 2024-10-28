@@ -23,8 +23,6 @@ export function hideMessageInImage(imageData: ImageData, message: string): Image
 
     return newImageData;
 }
-// src/utils/steganography.ts
-
 export function revealMessageFromImage(imageData: ImageData): string {
     let binaryMessage = '';
 
